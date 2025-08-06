@@ -1,0 +1,2 @@
+# This file ensures the storage/app/public directory exists
+# Laravel will use this directory for storing uploaded files 
