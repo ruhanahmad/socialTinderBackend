@@ -127,7 +127,7 @@ Route::middleware('auth:sanctum')->group(function () {
     
     // Conversation routes
     //these are full routes
-
+//oam crada
     //hello
     Route::apiResource('conversations', ConversationController::class)->except(['destroy']);
     Route::post('/conversations/{id}/leave', [ConversationController::class, 'leaveConversation']);
